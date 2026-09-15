@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">De vier bouwstenen van een goede prompt</title>
+  <desc id="desc">Vier stappen op een rij: Rol, Context, Taak en Vorm, elk met een korte omschrijving en verbonden door pijlen.</desc>
+
+  <rect x="0" y="0" width="920" height="260" fill="#ffffff" />
+
+  <!-- connecting arrows -->
+  <g stroke="#c7d2fe" stroke-width="3" fill="none">
+    <line x1="216" y1="120" x2="256" y2="120" marker-end="url(#arrowhead)" />
+    <line x1="446" y1="120" x2="486" y2="120" marker-end="url(#arrowhead)" />
+    <line x1="676" y1="120" x2="716" y2="120" marker-end="url(#arrowhead)" />
+  </g>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#818cf8" />
+    </marker>
+  </defs>
+
+  <!-- card template repeated 4x -->
+  <g font-family="Arial, Helvetica, sans-serif">
+
+    <!-- Card 1: Rol -->
+    <g transform="translate(20,20)">
+      <rect x="0" y="0" width="196" height="200" rx="14" fill="#eef2ff" stroke="#818cf8" stroke-width="2" />
+      <circle cx="98" cy="46" r="22" fill="#4f46e5" />
+      <text x="98" y="54" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">1</text>
+      <text x="98" y="96" text-anchor="middle" font-size="20" font-weight="bold" fill="#312e81">Rol</text>
+      <text x="98" y="128" text-anchor="middle" font-size="13" fill="#3730a3">
+        <tspan x="98" dy="0">Wie moet de</tspan>
+        <tspan x="98" dy="16">AI zijn?</tspan>
+      </text>
+    </g>
+
+    <!-- Card 2: Context -->
+    <g transform="translate(250,20)">
+      <rect x="0" y="0" width="196" height="200" rx="14" fill="#eef2ff" stroke="#818cf8" stroke-width="2" />
+      <circle cx="98" cy="46" r="22" fill="#4f46e5" />
+      <text x="98" y="54" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">2</text>
+      <text x="98" y="96" text-anchor="middle" font-size="20" font-weight="bold" fill="#312e81">Context</text>
+      <text x="98" y="128" text-anchor="middle" font-size="13" fill="#3730a3">
+        <tspan x="98" dy="0">Wat is de</tspan>
+        <tspan x="98" dy="16">situatie?</tspan>
+      </text>
+    </g>
+
+    <!-- Card 3: Taak -->
+    <g transform="translate(480,20)">
+      <rect x="0" y="0" width="196" height="200" rx="14" fill="#eef2ff" stroke="#818cf8" stroke-width="2" />
+      <circle cx="98" cy="46" r="22" fill="#4f46e5" />
+      <text x="98" y="54" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">3</text>
+      <text x="98" y="96" text-anchor="middle" font-size="20" font-weight="bold" fill="#312e81">Taak</text>
+      <text x="98" y="128" text-anchor="middle" font-size="13" fill="#3730a3">
+        <tspan x="98" dy="0">Wat moet er</tspan>
+        <tspan x="98" dy="16">gebeuren?</tspan>
+      </text>
+    </g>
+
+    <!-- Card 4: Vorm -->
+    <g transform="translate(710,20)">
+      <rect x="0" y="0" width="196" height="200" rx="14" fill="#eef2ff" stroke="#818cf8" stroke-width="2" />
+      <circle cx="98" cy="46" r="22" fill="#4f46e5" />
+      <text x="98" y="54" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">4</text>
+      <text x="98" y="96" text-anchor="middle" font-size="20" font-weight="bold" fill="#312e81">Vorm</text>
+      <text x="98" y="120" text-anchor="middle" font-size="13" fill="#3730a3">
+        <tspan x="98" dy="0">Hoe moet het</tspan>
+        <tspan x="98" dy="16">antwoord</tspan>
+        <tspan x="98" dy="16">eruitzien?</tspan>
+      </text>
+    </g>
+
+  </g>
+</svg>

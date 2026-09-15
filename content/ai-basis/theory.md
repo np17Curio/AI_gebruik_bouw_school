@@ -19,12 +19,32 @@ op de bouwplaats, en nu al bij challenge 2.
 
 Lees dit rustig door. De opdrachten die erop volgen bouwen hierop voort.
 
-## 1. Waarom AI niet altijd gelijk heeft
+## 1. Wat bedoelen we met AI?
 
-Een taalmodel zoals ChatGPT voorspelt het meest waarschijnlijke volgende
-woord, op basis van patronen in tekst waarop het getraind is. Het **weet**
-dus niets zeker — het **gokt** heel goed. Dat gaat vaak goed, maar niet
-altijd.
+Met AI bedoelen we in deze les vooral **generatieve AI**: taalmodellen zoals
+ChatGPT of Microsoft Copilot. Zulke modellen voorspellen telkens het meest
+waarschijnlijke vervolg op tekst. Ze **begrijpen** niets in menselijke zin —
+ze **genereren** een antwoord dat plausibel klinkt.
+
+Voor jou als (toekomstig) uitvoerder of leidinggevende kan AI daarmee
+helpen bij bijvoorbeeld:
+
+- een eerste opzet maken van een planning, werkinstructie, e-mail of
+  rapportage,
+- een vakterm of norm in gewone taal laten uitleggen,
+- ideeën of een checklist genereren voor bijvoorbeeld een toolbox,
+- een tekst corrigeren of verduidelijken.
+
+<x-callout type="tip">
+AI is een <strong>hulpmiddel</strong>, geen vervanging van je eigen
+vakkennis en verantwoordelijkheid. Hieronder lees je waarom dat zo
+belangrijk is.
+</x-callout>
+
+## 2. Waarom AI niet altijd gelijk heeft
+
+Omdat een taalmodel gokt op basis van patronen, in plaats van dingen zeker
+te weten, gaat dat gokken niet altijd goed.
 
 <x-callout type="warning">
 AI kan met volledig zelfvertrouwen iets verzinnen dat er correct uitziet,
@@ -47,7 +67,7 @@ de bouw:
   materiaalhoeveelheid) geeft de AI soms een aannemelijk klinkend getal dat
   niet klopt met jouw specifieke situatie.
 
-## 2. Waarom je AI-antwoorden altijd controleert
+## 3. Waarom je AI-antwoorden altijd controleert
 
 Als toekomstig uitvoerder of leidinggevende neem jij de verantwoordelijkheid
 voor wat je doorstuurt naar je team, opdrachtgever of onderaannemer — niet
@@ -92,8 +112,10 @@ of persoonsgebonden informatie hoort daar niet in.
 
 Deel dus geen:
 
-- Persoonsgegevens van collega's of medewerkers (namen in combinatie met
-  bijvoorbeeld verzuim, functioneren of BSN).
+- **Namen of persoonsgegevens van wie dan ook** — collega's, klanten,
+  medewerkers of jezelf. Dit is de belangrijkste vuistregel: twijfel je, laat
+  de naam dan gewoon weg. Dit geldt sowieso extra streng zodra het gecombineerd
+  wordt met iets gevoeligs, zoals verzuim, functioneren of een BSN.
 - Vertrouwelijke bedrijfsinformatie, zoals prijsafspraken, offertes of
   interne kostprijzen.
 - Nog niet gepubliceerde tekeningen, BIM-modellen of ontwerpen zonder
@@ -103,6 +125,26 @@ Deel dus geen:
 Twijfel je? Beschrijf de situatie algemeen (zonder namen, project- of
 bedrijfsgegevens) in plaats van de originele documenten of gegevens te
 kopiëren.
+
+### Zet chatgeheugen ("memory") uit
+
+Veel AI-chatbots, waaronder ChatGPT, hebben een geheugenfunctie die dingen
+onthoudt uit eerdere, andere gesprekken. Handig voor persoonlijk gebruik,
+maar niet altijd wenselijk bij schoolwerk of op de bouwplaats. Zet deze
+functie uit (of start een nieuwe, "schone" chat) om twee redenen:
+
+- **Betrouwbaarheid.** Je wilt bij elke opdracht een fris, onafhankelijk
+  antwoord — niet een antwoord dat onbedoeld beïnvloed is door iets uit een
+  oud, ongerelateerd gesprek.
+- **Privacy.** Hoe minder een AI-tool onthoudt van wat je eerder hebt
+  getypt, hoe kleiner het risico dat oudere, mogelijk gevoelige informatie
+  ergens blijft rondzweven.
+
+<x-callout type="tip">
+Hoe je dit precies uitzet verschilt per tool en verandert regelmatig — kijk
+bij twijfel in de instellingen (vaak onder "Privacy" of "Personalisatie") van
+de AI-tool die je gebruikt.
+</x-callout>
 
 ### Eerlijk vermelden dat je AI hebt gebruikt
 
@@ -117,7 +159,11 @@ AI-tekst en presenteren alsof het volledig je eigen werk is, niet — ook al
 heb je er zelf niets aan veranderd.
 </x-callout>
 
-## 3. De vier bouwstenen van een goede prompt
+## 4. De vier bouwstenen van een goede prompt
+
+Het gericht formuleren van een opdracht aan een AI heet **prompt
+engineering**. Hoe duidelijker je context en doel, hoe beter en
+voorspelbaarder het resultaat.
 
 Een vage vraag levert een vaag antwoord op. Bouw je prompt op met deze vier
 onderdelen en de kwaliteit van het antwoord gaat direct omhoog:
@@ -128,6 +174,8 @@ onderdelen en de kwaliteit van het antwoord gaat direct omhoog:
   omstandigheden.
 - **Taak** — wat moet er precies gebeuren? Hoe concreter, hoe beter.
 - **Vorm** — hoe moet het antwoord eruitzien? Lengte, toon, opmaak, taal.
+
+![De vier bouwstenen van een goede prompt: rol, context, taak en vorm](assets/vier-bouwstenen.svg)
 
 <x-compare>
 <x-compare-item title="Zwakke prompt">
@@ -156,10 +204,10 @@ Niet tevreden met het antwoord? Voeg ontbrekende context toe of stel een
 vervolgvraag. Een prompt hoeft niet in één keer perfect te zijn.
 </x-callout>
 
-## 4. Werken in duo's: opsteller en controleur
+## 5. Werken in duo's: opsteller en controleur
 
 Bij de opdrachten waarin je zelf een prompt schrijft, werk je met vaste
-rollen — dat maakt "controle" (zie onderdeel 2) iets wat je samen echt
+rollen — dat maakt "controle" (zie onderdeel 3) iets wat je samen echt
 oefent, niet iets wat je alleen leest:
 
 - **Opsteller** — schrijft de prompt en werkt met de AI.
