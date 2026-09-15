@@ -1,15 +1,13 @@
 ---
-name: CSS Grid
-subtitle: E-module
-youtube: https://www.youtube.com/watch?v=jV8B24rSN5o
-weeks: 4
+name: AI-gebruik in de bouw
+subtitle: Effectief en verantwoord prompten
+weeks: 0
 language: nl
-description: Leer in 4 weken professionele pagina-indelingen bouwen — van de
-  eerste kolommen tot een complete website.
-logoAlt: Schaalbaar
 exerciseMode: interactive
+description: Ochtendmasterclass over het effectief en verantwoord gebruiken
+  van AI zoals ChatGPT in je toekomstige werk als uitvoerder of leidinggevende
+  in de bouw.
+logoAlt: AI-gebruik in de bouw
 algemeen:
-  - Ik kan het verschil uitleggen tussen Flexbox en Grid
-  - Ik weet wat een grid container en grid item is
-  - Ik gebruik geen floats of positionering voor pagina-layout
+  - Ik kan beoordelen welke prompt het beste resultaat oplevert en dit motiveren
 ---
